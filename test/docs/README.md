@@ -139,4 +139,4 @@ shif + alt + f
     "arrowParens": "awoid
 }
 owl carousel 2
-strep carousel
+strep carouselgfdgdfgdf
