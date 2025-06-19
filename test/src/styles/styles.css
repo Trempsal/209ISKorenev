@@ -168,7 +168,7 @@ body {
    padding-left: 35px;
 }
 .catalog1 {
-   background-image: url(../assets/images/catalog.jpg);
+   background-image: url(../assets/images/original.jpg);
    align-items: center;
    background-size: cover;
    justify-content: left;
@@ -177,7 +177,7 @@ body {
    padding-bottom: 0px;
 }
 .body1 {
-   background-image: url(../assets/images/glavnaya.jpg);
+   background-image: url(../assets/images/kareliya-v-iyule.jpg);
    background-size: cover;
    background-position: center;
 
@@ -189,8 +189,8 @@ body {
 }
 
 .onas {
-   background-image: url(../assets/images/onas.jpg);
-   background-size: cover;
+   background-image: url(../assets/images/karelia.jpg);
+   background-size: cover; 
    height: 100vh;
    align-items: left;
    display: flex;
@@ -232,13 +232,89 @@ body {
 }
 
 .hhh {
-   width: 300px;
-   height: 300px;
+   width: 350px;
+   height: 350px;
+   border-radius: 20px;
    object-fit:
+
 cover;
    
-  transform: translate(50px, 30px); 
-  
- transform: translateX(100px); 
-  transform: translateY(-20px); 
+  transform: translate(200px, -100px); 
+}
+
+.asd {
+   width: 350px;
+   height: 350px;
+   border-radius: 10px;
+   border-bottom-right-radius: 100px;
+   object-fit: cover;
+   transform: translate(240px, -515px)
+}
+
+.dsa {
+   width: 350px;
+   height: 700px;
+   object-fit: cover;
+   border-radius: 10px;
+   border-top-left-radius: 100px;
+   transform: translate(-500px, -520px);
+}
+
+.GALEREA {
+   background-image: url(../assets/images/vay.jpg);
+   background-size: cover;
+   height: 100vh;
+   align-items: left;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   font-size: 50px;
+   color: #ffffff;
+}
+
+.GALEREA1{
+ background-image: url(../assets/images/vay.jpg);
+   background-size: cover;
+   height: 100vh;
+   align-items: left;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   font-size: 50px;
+   color: #ffffff;
+}
+
+.Kontakty {
+   background-image: url(../assets/images/original.jpg);
+   background-size: cover;
+   height: 100vh;
+   align-items: left;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   font-size: 50px;
+   color: #ffffff;
+}
+
+.adad {
+   width: 250px;
+   height: 250px;
+   border-radius: 20px;
+   object-fit: cover;
+   transform: translate(240px, -30px);
+
+}
+
+.Kontakty-text {
+   background-color: #9bb19d88;
+    height: 30vh;
+    padding: 30px;
+    width: 65vh;
+    border-radius: 20px;
+   font-size: 25px;
+   color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+   margin: 0;
 }
